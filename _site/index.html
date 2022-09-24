@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en" data-theme="lofi">
+  <head>
+    <meta charset="utf-8">
+    <title>This is the front matter</title>
+    <link rel="stylesheet" href="/styles/tailwind.css">
+  </head>
+
+  <body>
+    <main class="container mx-auto p-10 prose">
+      <!-- @tailwind/typography is applied in _includes/layouts/main.njk -->
+<h1>This page uses the lofi theme</h1>
+<h2><a href="nunjucks">Check out the nunjucks example</a></h2>
+<h2>Below are some demos</h2>
+<h2>Heading level 2</h2>
+<p>Love<strong>is</strong>bold</p>
+<p>Italicized text is the <em>cat's meow</em>.</p>
+<blockquote>
+<p>Dorothy followed her through many of the beautiful rooms in her castle.</p>
+</blockquote>
+<!-- daisyUI button example. I had to add not-prose, as @tailwind/typography makes text dark  -->
+<p><button class="btn btn-primary " href="/nunjucks">This is a useless button</button></p>
+<div class="radial-progress bg-primary text-primary-content border-4 border-primary" style="--value:70;">70%</div>
+<h1>Lol</h1>
+<select class="select w-full max-w-xs border-2 border-black">
+  <option disabled selected>Pick your favorite Simpson</option>
+  <option>Homer</option>
+  <option>Marge</option>
+  <option>Bart</option>
+  <option>Lisa</option>
+  <option>Maggie</option>
+</select>
+<blockquote>
+<h4>The quarterly results look great!</h4>
+<ul>
+<li>Revenue was off the chart.</li>
+<li>Profits were higher than ever.</li>
+</ul>
+<p><em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+
+    </main>
+  </body>
+</html>

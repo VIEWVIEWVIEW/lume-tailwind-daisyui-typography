@@ -1,0 +1,12 @@
+{
+  "importMap": "import_map.json",
+  "tasks": {
+    "lume": "deno eval \"import 'lume/task.ts'\" --",
+    "build": "tailwindcss.exe -i ./src/styles/input.css -o ./_site/styles/tailwind.css --minify & deno task lume",
+    "serve": "tailwindcss.exe -i ./src/styles/input.css -o ./_site/styles/tailwind.css --watch & deno task lume -s",
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}

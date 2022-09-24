@@ -1,0 +1,19 @@
+---
+title: Default main title
+language: en
+---
+<!doctype html>
+
+<html lang="{{ language }}" data-theme="{{ theme }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/styles/tailwind.css">
+  </head>
+
+  <body>
+    <main class="container mx-auto p-10 prose">
+      {{ content | safe }}
+    </main>
+  </body>
+</html>
