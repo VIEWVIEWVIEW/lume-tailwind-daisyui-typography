@@ -8,6 +8,9 @@ theme: lofi
 <h1>This page uses the lofi theme</h1>
 
 [Check out the nunjucks example](nunjucks)
+
+[Check out the jsx example](jsx-test)
+
 ----
 
 ## Below are some demos

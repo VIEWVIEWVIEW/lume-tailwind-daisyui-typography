@@ -3,6 +3,8 @@
 So, imo the best way to view tailwind is as an pluggable stylesheet generator. You throw directives in, it reads your source files, and gives a stylesheet back. This project is an example on how to use it in deno's [lume](https://lume.land) SSG. Read more fore the reason why I created this here: https://github.com/saadeghi/daisyui/issues/932
 
 
+[Check out the demo on netlify](https://lume-tailwind-daisyui-typography.netlify.app/)
+
 Requirements:
 - node.js + npm
 - deno
